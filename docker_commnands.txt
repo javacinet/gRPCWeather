@@ -1,0 +1,7 @@
+# Create image from Dockerfile.
+docker build -t grpc_weather .
+
+# list images
+docker images
+
+docker run -p8980:8980 grpc_weather
